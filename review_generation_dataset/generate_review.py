@@ -1,7 +1,10 @@
 import os
 import json
 import codecs
+import nltk
 from nltk.tokenize import word_tokenize
+
+nltk.download('punkt')
 
 vocab = {}
 
