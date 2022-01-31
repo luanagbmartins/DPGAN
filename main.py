@@ -43,6 +43,8 @@ import re
 import nltk
 from tensorflow.python import debug as tf_debug
 
+nltk.download('punkt')
+
 FLAGS = tf.app.flags.FLAGS
 
 # Where to find data
